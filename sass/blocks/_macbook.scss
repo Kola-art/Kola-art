@@ -1,0 +1,73 @@
+.macbook {
+    min-height: 890px;
+    padding: 79px 0 61px 0;
+    background: url('../img/bg3.png') center (center/cover) no-repeat;
+    &_title {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__table{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__tabs {
+        width: 843px;
+        height: 64px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        margin-top: 25px;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        border-bottom: 0.7px solid #ffffff;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    &__tab {
+        width: 173px;
+        height: 62px;
+        text-align: center;
+        border-right: 0.7px solid;
+        text-align: center;
+        line-height: 55px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+        cursor: pointer;
+        &:hover {
+            font-weight: 700;
+            color: #00c2f0;
+        }
+    }
+    &__air {
+        
+        position: relative;
+        width: 80%;
+        margin: 0 auto;   
+        margin-top: 30px;     
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+        background-color: rgba(225, 225, 225, 1);
+        img {
+            width: 20px;
+            height: 25px;
+        }
+    }
+    .slick-next {
+        left: auto;
+        right: -66px;
+    }       
+}
+

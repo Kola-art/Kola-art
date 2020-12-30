@@ -1,0 +1,17 @@
+* {
+    font-family: 'roboto', sans-serif;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    }
+@import 'blocks/country';
+@import 'blocks/smartphone';
+@import 'blocks/prengi';
+@import 'blocks/macbook';
+@import 'blocks/advantage';
+@import 'blocks/sky';
+@import 'blocks/icon';
+@import 'blocks/overlay';
+@import 'blocks/footer';

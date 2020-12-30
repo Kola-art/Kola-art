@@ -1,0 +1,97 @@
+.advantage {
+    min-height: 1300px;
+    padding: 80px 0 80px 0;
+    &__title {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #393939;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__advs {
+        display: flex;
+        flex-Direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+    &__adv1 {
+        background: url('../img/adv1.png');
+        width: 574px;
+        height: 355px;
+        p {
+            font-size: 23px;
+            line-height: 26px;
+            font-weight: 400;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 139px;
+        }
+    }
+    &__adv2 {
+        background: url('../img/adv2.png');
+        width: 574px;
+        height: 355px;
+        p {
+            font-size: 23px;
+            line-height: 26px;
+            font-weight: 400;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 139px;
+        }
+    }
+    &__adv3 {
+        background: url('../img/adv3.png');
+        width: 574px;
+        height: 355px;
+        p {
+            font-size: 23px;
+            line-height: 26px;
+            font-weight: 400;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 139px;
+        }
+    }
+    &__adv4 {
+        background: url('../img/adv4.png');
+        width: 574px;
+        height: 355px;
+        p {
+            font-size: 23px;
+            line-height: 26px;
+            font-weight: 400;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 139px;
+        }
+    }
+    &__adv5 {
+        background: url('../img/adv5.png');
+        width: 574px;
+        height: 355px;
+        p {
+            font-size: 23px;
+            line-height: 26px;
+            font-weight: 400;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 139px;
+        }
+    }
+    &__adv6 {
+        background: url('../img/adv6.png');
+        width: 574px;
+        height: 355px;
+        p {
+            font-size: 23px;
+            line-height: 26px;
+            font-weight: 400;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 139px;
+        }
+    }
+}

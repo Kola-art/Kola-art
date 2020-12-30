@@ -1,0 +1,73 @@
+.smartphone {
+	min-height: 700px;
+	padding-top: 40px;
+	background: url('../img/bg1.png') center (center/cover) no-repeat;
+	&__header {
+		min-height: 65px;
+		display: flex;
+	}
+	&__nav {
+		margin-left: 380px;
+		margin-top: 20px;
+		display: flex;
+		justify-content: flex-end;
+		ul {
+			display: flex;
+			list-style-type: none;
+			li {
+				padding-left: 45px;
+				font-size: 13px;
+				line-height: 26px;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: #ffffff;
+			}
+		}
+	}
+	&__title {
+		margin-top: 135px;
+		font-size: 42px;
+		line-height: 48px;
+		font-weight: 900;
+		color: #ffffff;
+	}
+	&__subtitle {
+		margin-top: 30px;
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 400;
+		color: #ffffff;
+		span {
+			font-weight: 300px;
+		}
+	}
+	&__btn {
+		margin-top: 40px;
+		width: 241px;
+		height: 60px;
+		background-color: #00c2f0;
+		box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.07);
+		font-size: 16px;
+		line-height: 30px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #ffffff;
+		border: none;
+		border-radius: 5px;
+		margin-bottom: 195px;
+	}
+	&__descr {
+		float: left;
+	}
+	&__phone {
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+		height: 595px;
+		&_img {
+			display: block;
+			max-width: 100%;
+		    height: auto;
+		}
+	}
+}

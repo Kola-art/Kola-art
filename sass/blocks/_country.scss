@@ -1,0 +1,31 @@
+.country {
+    min-height: 90px;
+    padding: 20px 0 0 0;
+}
+.emblem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    &__one {
+        display: flex;
+        align-items: top;
+        img {
+            margin-top: 2px;
+            width: 28px;
+            height: 21px;
+        }
+    }
+    &__descr {
+        margin-left: 5px;
+        p { 
+            font-size: 12px;
+            font-weight: 300;
+            color: #242424;
+        }
+        span {
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 700;
+        }
+    }
+}
